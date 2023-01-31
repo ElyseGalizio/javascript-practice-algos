@@ -7,6 +7,12 @@
 
 function stringRepeat(number, string) {
     // Write your code here
+    let result = "";
+    for (let i = 0; i < number; i++) {
+        result += string;
+        console.log(result);
+    }
+    return result;
 }
 
 // DO NOT TOUCH TESTS BELOW
